@@ -29,7 +29,7 @@ The goal is to clean the data, engineer new features, perform exploratory data a
 - 'notebooks/' -> Jupyter notebooks with analysis  
 - 'data/' -> sample dataset + link to source  
 - 'images/' -> charts and visualizations  
-- requirements.txt' -> list of dependencies  
+- 'requirements.txt' -> list of dependencies  
 
 ## 🚀 How to Run
 1. Clone the repository  
