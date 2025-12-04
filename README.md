@@ -35,3 +35,31 @@ The goal is to clean the data, engineer new features, perform exploratory data a
 1. Clone the repository  
    '''bash
    git clone https://github.com/MapiAI/car-data-analysis.git
+   
+3. Install requirements
+   pip install -r requirements.txt
+   
+4. Open the notebook
+   jupyter notebook notebooks/car_data_analysis.ipynb
+
+## Visuals
+Histogram: City MPG distribution
+
+Bar chart: Average MSRP by Vehicle Size
+
+Scatter plot: Engine HP vs. MSRP
+
+Boxplot: MSRP by Driven Wheels
+
+Line plot: City vs Highway MPG by Transmission Type
+
+Correlation heatmap
+
+## Next Steps
+- Extend analysis with machine learning models (e.g., car price prediction)
+
+- Publish interactive dashboard in Tableau
+
+## License
+This project is licensed under the MIT License – free to use, modify, and share with attribution.
+   
