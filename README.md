@@ -44,15 +44,23 @@ The goal is to clean the data, engineer new features, perform exploratory data a
 
 ## Visuals
 ![Histogram: City MPG distribution](images/CityMPGDistribution.png "The distribution of City MPG is strongly right-skewed, indicating that most vehicles fall within the low to mid range fuel efficiency. Very few vehicles reach extremely high city MPG values, which correspond to electric or highly efficient hybrid cars, and these appear as outliers in the dataset.")
-* This pattern suggests that the dataset reflects the real-world market, where most cars have moderate fuel efficiency, and high efficiency vehicles are relatively rare.
+
+*This pattern suggests that the dataset reflects the real-world market, where most cars have moderate fuel efficiency, and high efficiency vehicles are relatively rare.*
+
+
+![Scatter Plot: Total MPG vs MSRP](images/TotalMPGvsMSRP.png "Premium unleaded cars diversify mainly in price, regular unleaded in efficiency, while electric vehicles stand apart with high efficiency and consistent pricing. Outlier corrected during data cleaning.")
+
+*Premium unleaded cars diversify mainly in price, regular unleaded in efficiency, while electric vehicles stand apart with high efficiency and consistent pricing.*
 
 
 ![Bar chart: Average MSRP by Vehicle Size](images/AverageMSRPbyVehicleSize.png "Large vehicles are much more expensive on average, while Compact and Midsize vehicles have similar average prices.")
-* The bar plot shows a clear difference in market price between large vehicles and the other two vehicle sizes.
+
+*The bar plot shows a clear difference in market price between large vehicles and the other two vehicle sizes.*
 
   
 ![Line plot: City vs Highway MPG by Transmission Type](images/CityMPGHighwayMPGbyTransmissionType.png "Interestingly, electric vehicles show better efficiency in city driving than on the highway, the opposite of conventional cars.")
-* Overall, the plot highlights a tight cluster for traditional transmissions and a clear outlier formed by electric vehicles.
+
+*Overall, the plot highlights a tight cluster for traditional transmissions and a clear outlier formed by electric vehicles.*
 
 For the complete set of visualizations, please refer to the [Car Data Analysis Notebook](notebooks/CarAnalysisProject.ipynb).
   
@@ -64,4 +72,12 @@ For the complete set of visualizations, please refer to the [Car Data Analysis N
 
 ## License
 This project is licensed under the MIT License – free to use, modify, and share with attribution.
-   
+  
+## Author & Contact
+
+Created by **Maria Petralia (MaPi)**  
+- [GitHub Profile](https://github.com/MapiAI)  
+- [LinkedIn](https://www.linkedin.com/in/mariapetralia/) 
+- [Portfolio](https://github.com/MapiAI?tab=repositories)
+
+Feel free to connect or reach out for collaboration opportunities!
