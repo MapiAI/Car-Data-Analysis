@@ -45,8 +45,9 @@ The goal is to clean the data, engineer new features, perform exploratory data a
 ## Visuals
 Histogram: City MPG distribution
 
-Bar chart: Average MSRP by Vehicle Size
-
+![Bar chart: Average MSRP by Vehicle Size](images/AverageMSRPbyVehicleSize.png)
+* The bar plot shows a clear difference in market price between large vehicles and the other two vehicle sizes. Large vehicles are much more expensive on average, while Compact and Midsize vehicles have similar average prices.
+  
 Scatter plot: Engine HP vs. MSRP
 
 Boxplot: MSRP by Driven Wheels
