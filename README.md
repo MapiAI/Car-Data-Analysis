@@ -1,5 +1,10 @@
 # Car Data Analysis
 
+[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-success)](#)
+
 ## Project Overview
 This project analyzes a dataset of **11,914 car listings with 16 features**.  
 The goal is to clean the data, engineer new features, perform exploratory data analysis (EDA), and create visualizations to uncover meaningful insights about pricing, performance, efficiency, and popularity.
@@ -79,5 +84,7 @@ Created by **Maria Petralia (MaPi)**
 - [GitHub Profile](https://github.com/MapiAI)  
 - [LinkedIn](https://www.linkedin.com/in/mariapetralia/) 
 - [Portfolio](https://github.com/MapiAI?tab=repositories)
+
+⭐ If you find this project useful, please consider giving it a star on GitHub!
 
 Feel free to connect or reach out for collaboration opportunities!
