@@ -54,7 +54,7 @@ The goal is to clean the data, engineer new features, perform exploratory data a
 ![Line plot: City vs Highway MPG by Transmission Type](images/CityMPGHighwayMPGbyTransmissionType.png "Interestingly, electric vehicles show better efficiency in city driving than on the highway, the opposite of conventional cars.")
 * Overall, the plot highlights a tight cluster for traditional transmissions and a clear outlier formed by electric vehicles.
 
-For the complete set of visualizations, please refer to the [Car Data Analysis Notebook](notebooks/car_data_analysis.ipynb).
+For the complete set of visualizations, please refer to the [Car Data Analysis Notebook](notebooks/CarAnalysisProject.ipynb).
   
 
 ## Next Steps
