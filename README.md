@@ -44,11 +44,14 @@ The goal is to clean the data, engineer new features, perform exploratory data a
    ```bash
    git clone https://github.com/MapiAI/car-data-analysis.git
    
-3. Install requirements
+2. Install requirements
+   ```bash
    pip install -r requirements.txt
    
-4. Open the notebook
+3. Open the notebook
+   ```bash
    jupyter notebook notebooks/car_data_analysis.ipynb
+
 
 ## Visuals
 ![Histogram: City MPG distribution](images/CityMPGDistribution.png "The distribution of City MPG is strongly right-skewed, indicating that most vehicles fall within the low to mid range fuel efficiency. Very few vehicles reach extremely high city MPG values, which correspond to electric or highly efficient hybrid cars, and these appear as outliers in the dataset.")
