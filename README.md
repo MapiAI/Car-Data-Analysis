@@ -26,14 +26,14 @@ The goal is to clean the data, engineer new features, perform exploratory data a
 - **Correlation Analysis**: Engine HP correlates positively with MSRP (0.65), negatively with MPG; City and Highway MPG strongly correlate (0.94). Popularity shows no meaningful linear relationship.
 
 ## Repository Structure
-- 'notebooks/' -> Jupyter notebooks with analysis  
-- 'data/' -> sample dataset + link to source  
-- 'images/' -> charts and visualizations  
-- 'requirements.txt' -> list of dependencies  
+- `notebooks/` -> Jupyter notebooks with analysis  
+- `data/` -> sample dataset + link to source  
+- `images/` -> charts and visualizations  
+- `requirements.txt` -> list of dependencies  
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository  
-   '''bash
+   ```bash
    git clone https://github.com/MapiAI/car-data-analysis.git
    
 3. Install requirements
@@ -43,18 +43,17 @@ The goal is to clean the data, engineer new features, perform exploratory data a
    jupyter notebook notebooks/car_data_analysis.ipynb
 
 ## Visuals
-Histogram: City MPG distribution
+![Histogram: City MPG distribution](images/CityMPGDistribution.png "The distribution of City MPG is strongly right-skewed, indicating that most vehicles fall within the low to mid range fuel efficiency. Very few vehicles reach extremely high city MPG values, which correspond to electric or highly efficient hybrid cars, and these appear as outliers in the dataset.")
+* This pattern suggests that the dataset reflects the real-world market, where most cars have moderate fuel efficiency, and high efficiency vehicles are relatively rare.
+
 
 ![Bar chart: Average MSRP by Vehicle Size](images/AverageMSRPbyVehicleSize.png "Large vehicles are much more expensive on average, while Compact and Midsize vehicles have similar average prices.")
 * The bar plot shows a clear difference in market price between large vehicles and the other two vehicle sizes.
+
   
-Scatter plot: Engine HP vs. MSRP
-
-Boxplot: MSRP by Driven Wheels
-
-Line plot: City vs Highway MPG by Transmission Type
-
-Correlation heatmap
+![Line plot: City vs Highway MPG by Transmission Type](images/CityMPGHighwayMPGbyTransmissionType.png "Interestingly, electric vehicles show better efficiency in city driving than on the highway, the opposite of conventional cars.")
+* Overall, the plot highlights a tight cluster for traditional transmissions and a clear outlier formed by electric vehicles.
+  
 
 ## Next Steps
 - Extend analysis with machine learning models (e.g., car price prediction)
