@@ -4,6 +4,9 @@
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success)](#)
+[![GitHub stars](https://img.shields.io/github/stars/MapiAI/car-data-analysis?style=social)](https://github.com/MapiAI/car-data-analysis/stargazers)
+
+⭐ “If you find this project useful, please consider giving it a star on GitHub!
 
 ## Project Overview
 This project analyzes a dataset of **11,914 car listings with 16 features**.  
